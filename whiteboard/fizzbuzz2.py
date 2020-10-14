@@ -22,6 +22,7 @@ def fizzbuzz(n):
         else:
             print('\n', end='')
 
+### Attemps to find more efficient answers
 def fizzbuzz3(n):
     for i in range(1, n+1):
         div3 = (i % 3 == 0)
